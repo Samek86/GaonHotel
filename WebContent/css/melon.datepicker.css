@@ -1,0 +1,119 @@
+.ll-skin-melon {
+	font-size: 100%;
+	text-decoration: none;
+}
+
+.ll-skin-melon .ui-widget {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	background: rgba(26, 37, 48, 0 );/* #1A2530; */
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	
+}
+
+.ll-skin-melon .ui-datepicker {
+	padding: 0;
+	
+}
+
+.ll-skin-melon .ui-datepicker-header {
+	border: none;
+	background: rgba(26, 37, 48, 0.9);/* #1A2530; */
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.ll-skin-melon .ui-datepicker-header .ui-state-hover {
+	background: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-title {
+	
+	margin-top: .4em;
+	margin-bottom: .3em;
+	color: #e9f0f4;
+	
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev-hover,
+.ll-skin-melon .ui-datepicker .ui-datepicker-next-hover,
+.ll-skin-melon .ui-datepicker .ui-datepicker-next,
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev {
+	top: .9em;
+	border:none;
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev-hover {
+	left: 2px;
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-next-hover {
+	right: 2px;
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-next span,
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev span {
+	background-image: url(./ui-icons_ffffff_256x240.png);
+	background-position: -32px 0;
+	margin-top: 0;
+	top: 0;
+	font-weight: normal;
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev span {
+	background-position: -96px 0;
+}
+
+.ll-skin-melon .ui-datepicker table {
+	background: rgba(26, 37, 48, 0);/* #1A2530; */
+	margin: 0;
+}
+
+.ll-skin-melon .ui-datepicker th {
+	background: rgba(26, 37, 48, 0.9);/* #1A2530; */
+	padding: 1em 0;
+	color: #ccc;
+	font-size: 13px;
+	font-weight: normal;
+	border: none;
+	border-top: 1px solid #2C3E50;
+}
+
+.ll-skin-melon .ui-datepicker td {
+	background: rgba(44, 62, 80, 0.8);/* #2C3E50; */
+	border: none;
+	padding: 0;
+}
+
+.ll-skin-melon td .ui-state-default {
+	background: transparent;
+	border: none;
+	text-align: center;
+	padding: .5em;
+	margin: 0;
+	font-weight: normal;
+	color: #efefef;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.ll-skin-melon .ui-state-disabled  {
+	opacity: 1;
+}
+
+.ll-skin-melon .ui-state-disabled .ui-state-default {
+	color: #334961;
+}
+
+.ll-skin-melon td .ui-state-active,
+.ll-skin-melon td .ui-state-hover {
+	background: #E74C3C;
+}
+

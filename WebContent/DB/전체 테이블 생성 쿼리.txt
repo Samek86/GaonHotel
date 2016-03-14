@@ -1,0 +1,199 @@
+/* GAON_ROOM 테이블 */
+drop table gaon_room;
+create table gaon_room(
+	 roomNum number(5), --방 순번
+	 roomID number(5) primary key, --방번호
+	 roomType varchar2(30), --방 유형
+	 roomSort varchar2(3), --방 정렬
+	 roomName varchar2(50), --방 이름
+	 roomCost number(9), --방 1박 가격
+	 roomMax number(2), --방 최대인원
+	 roomText varchar2(100), --방 설명 최대 90글자
+	 roomImg1 varchar2(200), --방 이미지1
+	 roomImg2 varchar2(200), --방 이미지2
+	 roomImg3 varchar2(200) --방 이미지3
+ );
+drop sequence gaon_room_seq;
+create sequence gaon_room_seq;
+
+insert into gaon_room values(gaon_room_seq.nextval, 101, 'Deluxe','1','디럭스 스위트룸', 180000, 2, '모던하고 세련된 도시적 감성의 인테리어가 돋보이는 객실입니다.', 'Deluxe1.jpg', 'Deluxe2.jpg', 'Deluxe3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 102, 'Deluxe','1', '디럭스 스위트룸', 180000, 2, '모던하고 세련된 도시적 감성의 인테리어가 돋보이는 객실입니다.', 'Deluxe1.jpg', 'Deluxe2.jpg', 'Deluxe3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 103, 'Deluxe','1','디럭스 스위트룸', 180000, 2, '모던하고 세련된 도시적 감성의 인테리어가 돋보이는 객실입니다.', 'Deluxe1.jpg', 'Deluxe2.jpg', 'Deluxe3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 104, 'Deluxe','1', '디럭스 스위트룸', 180000, 2, '모던하고 세련된 도시적 감성의 인테리어가 돋보이는 객실입니다.', 'Deluxe1.jpg', 'Deluxe2.jpg', 'Deluxe3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 201, 'Executive','2', '이그제큐티브 스위트룸', 360000, 3, '비즈니스 고객에게 적합한 사무공간과 편안한 객실 환경을 제공합니다.', 'Executive1.jpg', 'Executive2.jpg', 'Executive3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 202, 'Executive','2', '이그제큐티브 스위트룸', 360000, 3, '비즈니스 고객에게 적합한 사무공간과 편안한 객실 환경을 제공합니다.', 'Executive1.jpg', 'Executive2.jpg', 'Executive3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 203, 'Executive','2', '이그제큐티브 스위트룸', 360000, 3, '비즈니스 고객에게 적합한 사무공간과 편안한 객실 환경을 제공합니다.', 'Executive1.jpg', 'Executive2.jpg', 'Executive3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 204, 'Executive','2', '이그제큐티브 스위트룸', 360000, 3, '비즈니스 고객에게 적합한 사무공간과 편안한 객실 환경을 제공합니다.', 'Executive1.jpg', 'Executive2.jpg', 'Executive3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 301, 'Superior','3', '수퍼리어 스위트룸', 870000, 4, '고풍스러운 우아함, 기능성을 겸비한 객실입니다.', 'Superior1.jpg', 'Superior2.jpg', 'Superior3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 302, 'Superior','3', '수퍼리어 스위트룸', 870000, 4, '고풍스러운 우아함, 기능성을 겸비한 객실입니다.', 'Superior1.jpg', 'Superior2.jpg', 'Superior3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 303, 'Superior','3', '수퍼리어 스위트룸', 870000, 4, '고풍스러운 우아함, 기능성을 겸비한 객실입니다.', 'Superior1.jpg', 'Superior2.jpg', 'Superior3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 304, 'Superior','3', '수퍼리어 스위트룸', 870000, 4, '고풍스러운 우아함, 기능성을 겸비한 객실입니다.', 'Superior1.jpg', 'Superior2.jpg', 'Superior3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 401, 'Presidential','4', '프레지덴셜 스위트룸', 1560000, 6, '전세계 국빈, VIP전용 객실로써 가온 호텔 최고의 객실입니다.', 'Presidential1.jpg', 'Presidential2.jpg', 'Presidential3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 402, 'Presidential','4', '프레지덴셜 스위트룸', 1560000, 6, '전세계 국빈, VIP전용 객실로써 가온 호텔 최고의 객실입니다.', 'Presidential1.jpg', 'Presidential2.jpg', 'Presidential3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 403, 'Presidential','4', '프레지덴셜 스위트룸', 1560000, 6, '전세계 국빈, VIP전용 객실로써 가온 호텔 최고의 객실입니다.', 'Presidential1.jpg', 'Presidential2.jpg', 'Presidential3.jpg') ;
+insert into gaon_room values(gaon_room_seq.nextval, 404, 'Presidential','4', '프레지덴셜 스위트룸', 1560000, 6, '전세계 국빈, VIP전용 객실로써 가온 호텔 최고의 객실입니다.', 'Presidential1.jpg', 'Presidential2.jpg', 'Presidential3.jpg') ;
+
+commit; 
+
+
+/* GAON_RESERVATION 테이블 */
+drop table  gaon_reservation;
+create table gaon_reservation(
+	 revID number(5) primary key, --예약순번
+	 revName varchar2(30), --예약자 이름 추가됨
+	 revEmail varchar2(30), --예약자 이메일
+	 revTel varchar2(20), --예약자 전화번호 추가됨
+	 revRoomID number(5), --방번호
+	 revTotalCost number(8), --총 가격
+	 revCap number(2), --인원
+	 revIn date, -- 예약시작일
+	 revOut date,	--예약마지막일
+	 revTerm number, --몇박
+	 revDate date --예약일
+);
+drop sequence revID ;
+create sequence revID increment by 1 start with 1;
+
+delete gaon_reservation;
+insert into gaon_reservation values(revID.nextval,'hb', 'hbthree@gaon.com','01045003633','101', 360000, 2,'2016/01/19','2016/08/18',2,sysdate) ;
+insert into gaon_reservation values(revID.nextval,'배승현', 'bluebird@gaon.com', '01039875234', '201' , 720000, 1, '2016/01/20', '2017/02/14', 2,sysdate) ;
+insert into gaon_reservation values(revID.nextval,'김창수', 'changsu@gaon.com', '01078903400', '202' , 1440000, 2, '2016/01/19', '2016/12/22', 4,sysdate) ;
+insert into gaon_reservation values(revID.nextval,'강인성', 'insung@gaon.com', '01043782369', '203', 1080000, 2, '2016/01/19', '2016/11/12', 3, sysdate) ;
+insert into gaon_reservation values(revID.nextval,'박문길', 'mkmk55@gaon.com', '01099213670', '204', 1800000, 3, '2016/01/20', '2017/01/28', 5, sysdate) ;
+insert into gaon_reservation values(revID.nextval,'이동기', 'dkdk22@gaon.com', '01033608200', '303', 1940000, 2, '2016/01/19', '2016/11/30', 2, sysdate) ;
+insert into gaon_reservation values(revID.nextval,'윤준호', 'yjhjh@gaon.com', '01081000643', '404' , 3120000, 1, '2016/01/20', '2017/01/29', 2, sysdate) ;
+
+commit;
+
+
+
+/* GAON_LOGIN 테이블 */
+drop table gaon_login;
+create table gaon_login(
+   num     number         not null, --번호
+   id      varchar2(30)   not null, --아이디
+   pw      varchar2(30)   not null, --비밀번호
+   name    varchar2(30)   not null, --이름
+   birth   date           not null, --생일
+   zipcode varchar(7),              --우편번호
+   addr1   varchar2(200),           --주소1
+   addr2   varchar2(200),           --주소2
+   email   varchar2(40)	   not null,--이메일
+   tel     varchar2(20)   not null, --전화번호
+   primary key(id, email)           --아이디, 이메일 고유키 설정
+);
+drop sequence gaon_login_seq;
+create sequence gaon_login_seq;
+
+insert into gaon_login values(gaon_login_seq.nextval,'admin','1234','admin','90/08/10','121854','서울 마포구 백범로 23 (거구장)','한빛교육센터','Gaonhotel16@gmail.com', '01033872200');
+insert into gaon_login values(gaon_login_seq.nextval,'hb', '1234','hb','90/03/18','121854','서울 마포구 백범로 23 (거구장)','한빛교육센터','hbthree@gaon.com', '01045003633');
+insert into gaon_login values(gaon_login_seq.nextval,'junho', '1234','윤준호','90/11/25','12345','서울 마포구 노고산동 12-55','다세대 주택 201호','yjhjh10@gaon.com', '01081000643');
+insert into gaon_login values(gaon_login_seq.nextval,'shsh', '1234','배승현','94/12/31','120796','서울 서대문구 독립문공원길 17','극동아파트 112-1101','bluebird@gaon.com', '01039875234');
+insert into gaon_login values(gaon_login_seq.nextval,'changsu', '1234','김창수','91/5/05','120805','서울 서대문구 남가좌동 289-19','제일슈퍼','changsu@gaon.com','01078903400');
+insert into gaon_login values(gaon_login_seq.nextval,'insung', '1234','강인성','91/09/10','403819','인천 부평구 광장로 26','서연빌딩 203호','insung@gaon.com', '01043782369');
+insert into gaon_login values(gaon_login_seq.nextval,'mk', '1234','박문길','90/10/20','136720','서울 성북구 길음로 16','길음뉴타운 103-602','mkmk55@gaon.com', '01099213670');
+insert into gaon_login values(gaon_login_seq.nextval,'dk', '1234','이동기','92/08/07','138916','서울 송파구 잠실로 15','주공아파트 101-104','dkdk12@gaon.com', '01033608200');
+
+commit;
+
+
+/* GAON_BOARD 테이블 */
+
+alter table gaon_board_re drop constraint gaon_board_pk;
+
+drop table gaon_board;
+create  table gaon_board(     
+ num number primary key,
+ type varchar2(50),
+ writer varchar2(50),
+ pwd varchar2(15),
+ title varchar2(100),
+ content varchar2(3000),
+ wdate date,
+ count number,
+ rate number(1)
+);
+drop sequence gaon_board_seq;
+create sequence gaon_board_seq;
+
+insert into gaon_board values(gaon_board_seq.nextval,'qna','넘비싸','1234','너무비싸요','돈아까워요',sysdate,530,0);
+insert into gaon_board values(gaon_board_seq.nextval,'qna','김장수','1234','침대가 불편해요','비추합니다 돌침대에 다이빙을 해도 이거보단 낫겠네',sysdate,286,0);
+insert into gaon_board values(gaon_board_seq.nextval,'review','김개밥','1234','식사가 맛없어요','집에 가고싶네요 우리집 개 밥이 더 맛있어서 이거 먹음 우리집 개도 여기밥은 안먹음 ',sysdate,199,2);
+insert into gaon_board values(gaon_board_seq.nextval,'review','김수건','1234','불친절해요','수건 한장만 주네요 사람이 넷인데',sysdate,0,14);
+insert into gaon_board values(gaon_board_seq.nextval,'free','양.아치','1234','쓰라고 강요하네요','양아치들',sysdate,0,0);
+insert into gaon_board values(gaon_board_seq.nextval,'qna','김쭉빵','1234','넘나질문인것','어떻게 장사를 이따위로 하고도 살아남았죠?',sysdate,0,0);
+insert into gaon_board values(gaon_board_seq.nextval,'qna','김파워블로거','1234','제가파워블로거인데','무료로 숙식제공하세요',sysdate,140,0);
+insert into gaon_board values(gaon_board_seq.nextval,'review','김식빵','1234','식사가 맛없어요2','집에 가고싶네요 식빵',sysdate,570,3);
+insert into gaon_board values(gaon_board_seq.nextval,'review','카인드박','1234','친절해요','사실 뻥이고 불친절해요',sysdate,140,5);
+insert into gaon_board values(gaon_board_seq.nextval,'review','김비데','1234','비데가 너무 강해요','너무 강해서 천장청소가능',sysdate,560,4);
+insert into gaon_board values(gaon_board_seq.nextval,'free','정숙박','1234','숙박숙박','숙박숙박숙박숙박숙박숙박',sysdate,240,0);
+insert into gaon_board values(gaon_board_seq.nextval,'qna','안투룸','1234','전 투룸이 좋은데 투룸되요?','쓰리룸도가능? ㅍㅗ룸ㄷㅗ 가능? 뻐큐한거아님?',sysdate,670,0);
+insert into gaon_board values(gaon_board_seq.nextval,'free','이여행','1234','전 이지역을 지나가는 여행객 입니다','무료숙박 낭낭하게 나눔받습니다',sysdate,260,0);
+insert into gaon_board values(gaon_board_seq.nextval,'free','김중고나라','1234','문상이랑교환가능?','뻐카충?낄낄빠빠?장미단추?',sysdate,450,0);
+insert into gaon_board values(gaon_board_seq.nextval,'free','김찡따오','1234','따자하오?','워먼쓰중꿔런. 싼인 밍티엔 뚜어샤오첸?',sysdate,360,0);
+insert into gaon_board values(gaon_board_seq.nextval,'free','한빛아카데미','1234','자바국비지원교육','신촌 거구장 넘비쌈 먹어보고싶다',sysdate,380,0);
+insert into gaon_board values(gaon_board_seq.nextval,'free','지하1층','1234','홍원중국집','정말맛없음',sysdate,470,0);
+insert into gaon_board values(gaon_board_seq.nextval,'free','카우치서핑','1234','여러분을 카우치서핑으로 초대합','니다',sysdate,69,0);
+insert into gaon_board values(gaon_board_seq.nextval,'qna','냐옹이','1234','캣타워있나요?','캣타워있으면갑니다',sysdate,47,0);
+insert into gaon_board values(gaon_board_seq.nextval,'free','김토니스타크','1234','아크원자로팝니다','선제시요',sysdate,58,0);
+insert into gaon_board values(gaon_board_seq.nextval,'review','김3찬','1234','석식부페에 반찬 3개있음','우리집 개도 1식 3찬이다 이것들아',sysdate,69,4);
+insert into gaon_board values(gaon_board_seq.nextval,'qna','김자판','1234','여기 자판기 음료수 기본이','한 개 만원이라 천원짜리는 뱉어낸다는게 진짠가요?',sysdate,57,0);
+insert into gaon_board values(gaon_board_seq.nextval,'free','김프리','1234','프리덤!!!!','프리덤!!!!!!',sysdate,47,0);
+insert into gaon_board values(gaon_board_seq.nextval,'free','김코와붕가','1234','페퍼로니피자있어요?','토마토소스추가?',sysdate,147,0);
+
+commit;
+
+
+drop table gaon_board_re;
+create table gaon_board_re(
+ renum number not null,
+ rewriter varchar2(30),
+ recontent varchar2(3000),
+ rewdate date, 
+ num number not null
+ );
+drop sequence gaon_board_re_seq;
+create sequence gaon_board_re_seq;
+
+alter table gaon_board_re add constraint gaon_board_pk foreign key(num) references 
+gaon_board(num) on delete cascade;
+
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'맞아맞아','넘비싸',sysdate,1);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'별이다섯개','★★★★★',sysdate,2);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'멍멍이','멍멍!',sysdate,3);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'3명째부터','물이닦이지 않는다',sysdate,4);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'4명째인데','물 안묻히고 수건으로만 샤워가 
+
+가능했어요^^',sysdate,4);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'박비데','전 그래서 천장 좀 닦고옴',sysdate,10);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'거지여','이지역에 오지 말거라',sysdate,13);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'홍원','고객님의 성원에 힘입어 더욱 더 열심히 
+
+하겠습니다.',sysdate,17);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'토니토니쵸파','사람이 언제 가장 괴로운줄아나?',sysdate,20);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'백종1(one)','백종원 도시락 드세여 혜리 도시락 
+
+드세여',sysdate,21);
+insert into gaon_board_re values(gaon_board_re_seq.nextval,'박프리','후리덤',sysdate,23);
+
+commit;
+
+
+/* NOTICE 테이블 */
+drop table notice;
+create table notice(
+num number primary key,
+type varchar2(50),
+title varchar2(100),
+content varchar2(3000),
+wdate date,
+writer varchar2(50)
+);
+drop sequence notice_seq;
+create sequence notice_seq;
+
+insert into notice values(notice_seq.nextval,'notice','공지입니다','가온호텔은 고객의 소리에 항상 귀 기울이고 있습니다. \r\n 고객의 소중한 의견은 즉시 반영하여 감동으로 이어지는 \r\n 세심한 서비스로 보답하겠습니다. \r\n 호텔, 레스토랑, 호텔부대시설 및 서비
+스 등을 이용하시면서 \r\n 느끼셨던 소감을 이곳에 남겨주십시오.\r\n  고객님께서 원하시는 처리사항에 대해서는 \r\n 빠른 시간 내에 답변 드리겠습니다. \r\n 문의하신 내용에 대한 답변은 \r\n 고객님께서 접수하신 이메일이나 \r\n 연락처로 안내해드립니다.',sysdate,'admin');
+
+commit;
+

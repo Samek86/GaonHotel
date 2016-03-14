@@ -1,0 +1,289 @@
+.boardbg {
+    background: url(../login/img/woodbg.png) no-repeat center;
+    position: static;  
+    background-size: cover;
+    height: 110%;
+}
+
+.boardform {
+	height: 104%;
+	color : #9d9c9d;
+	position : absolute;
+	background-color :transparent;/* #1A2530; */
+	width: 100%;
+	top : 50%;
+	text-align : center;
+	padding: 2em 50px;
+	
+	font-size: 18px;
+	cursor: default;
+    vertical-align: middle;
+}
+
+.blackboard {
+	background : url(../css/blackboard2.png) no-repeat center;
+	background-size: 100% 110%;
+	height: 100%;
+	width: 100%;
+	position : absolute;
+	left : 0;
+	top : 0;
+	padding: 50px 0px;
+	margin: 0;
+	
+	
+}
+.boardcontents {
+	position: absolute;
+	left : 50%;
+	width: 80%;
+	margin-left: -40%;
+	
+	
+}
+.boardcontents .table {
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+	overflow: hidden;
+}
+
+.boardcontents table a:not(.btn), .table a:not(.btn) {
+	text-decoration: none;
+	color : #bbb;
+	outline: 0;
+	transition : all 0.3s;
+}
+
+.boardcontents table a:hover, .table a:hover{
+	color : #E74C3C;
+	text-shadow: 0 0 5px black;
+}
+
+.boardcontents input.text {
+	color : #bbb;
+	background-color : transparent;
+	font-size: 18px;
+	vertical-align: middle;
+	border-color : #bbb;
+	height: 33px;
+	width: 150px;
+	z-index: 3;
+	margin-bottom: 5px;
+	outline: 0;
+}
+
+.boardcontents input.sm{
+	width: 100px;
+}
+
+.boardcontents input.mm {
+	width: 150px;
+}
+
+.boardcontents input.lg {
+	width: 200px;
+}
+
+.boardcontents input.lg2 {
+	width: 250px;
+}
+
+.boardcontents input.lg3 {
+	width: 300px;
+}
+
+.boardcontents input.lg4 {
+	width: 400px;
+}
+
+.boardcontents input.lg5 {
+	width: 500px;
+}
+
+.boardcontents input.text:hover {
+	background-color : #E74C3C; 
+}
+	
+a.board-btn 
+ {
+	margin :0 20px;
+	width : 18vmin;
+	color: #bbb;
+	padding: 13px 25px;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: 600;
+	border: 2px;
+	border-radius : 10px;
+	border-color : #bbb;
+	border-style : solid;
+	background: transparent;/* #1A2530; */
+	outline: none;
+	letter-spacing: 5px;
+  }
+
+a.board-btn:hover
+ {
+	background: #E74C3C;
+	color: #bbb;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	text-decoration: none;
+}
+
+input.board-btn 
+ {
+	margin :0 20px;
+	width : 18vmin;
+	color: #bbb;
+	padding: 13px 25px;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: 600;
+	border: 2px;
+	border-radius : 10px;
+	border-color : #bbb;
+	border-style : solid;
+	background: transparent;/* #1A2530; */
+	outline: none;
+	letter-spacing: 5px;
+  }
+
+input.board-btn:hover
+ {
+	background: #E74C3C;
+	color: #bbb;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	text-decoration: none;
+}
+
+input.board-btn-s, 
+a.board-btn-s
+ {
+	margin :0 20px;
+	width : 100px;
+	color: #bbb;
+	padding: 5px 15px;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: 600;
+	border: 2px;
+	border-radius : 10px;
+	border-color : #bbb;
+	border-style : solid;
+	background: transparent;/* #1A2530; */
+	outline: none;
+	letter-spacing: 5px;
+  }
+
+.input.board-btn-s:hover,
+a.board-btn-s:hover
+ {
+	background: #E74C3C;
+	color: #bbb;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	text-decoration: none;
+}
+
+.boardcontents .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	color:#bbb;
+	
+}
+.boardcontents .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+	width : 150px !important;
+	margin-left: 10px;
+	
+}
+.boardcontents .btn-default {
+	border-color: #bbb;
+}
+
+.boardcontents .table > thead > tr > th,
+.boardcontents .table > tbody > tr > th,
+.boardcontents .table > tfoot > tr > th,
+.boardcontents .table > thead > tr > td,
+.boardcontents .table > tbody > tr > td,
+.boardcontents .table > tfoot > tr > td {
+	padding : 8px;
+	
+}
+
+.boardcontents .bootstrap-select.btn-group .dropdown-toggle .caret {
+	color : #bbb;
+}
+
+.boardcontents .dropdown-menu {
+	background-color: #1A2530;
+}
+
+.boardcontents .bootstrap-select.btn-group .dropdown-menu li a {
+	font-size: 18px;
+}
+.boardcontents .bootstrap-select.btn-group .dropdown-menu li a:hover {
+color : #ddd;
+background-color: #E74C3C;
+	}
+.boardcontents table{
+	color : #bbb;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+.boardcontents textarea {
+	width: auto;
+	height: auto;
+	background-color: rgba(26, 37, 48, 0.5);
+	font-size: 18px;
+	text-align: left;
+	border: none;
+	line-height: 2;
+}
+
+.boardcontents .comment {
+	width: 70%;
+	height: 300px;
+}
+.boardcontents textarea:hover {
+	background-color: rgba(26, 37, 48, 1);
+	}
+
+.boardcontents .pagination > li > a, .pagination > li > span {
+    padding: 4px 12px;
+    color: #bbb;
+    background-color: transparent;
+    margin: 0px 5px;
+}
+
+.boardcontents .pagination > li > a:hover, .pagination > li > span:hover {
+    background-color: #E74C3C;
+    border-radius : 20px;
+}
+
+.boardcontents .pagination > .active > a {
+	  background-color: #E74C3C;
+    border-radius : 20px;
+}
+
+
+.boardcontents tr.dotborder{
+	border-color: #bbb;
+	border-style: none none dashed none;
+	border-width: 2px;
+	border-spacing: 3px;
+}
+
+	

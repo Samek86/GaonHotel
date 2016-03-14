@@ -1,0 +1,281 @@
+	
+	/* admin form */
+	#admin_center {
+        padding-top:110px;
+        margin:0 auto;
+        width:1200px; 
+    }
+    #admin_title{
+    	background:#6e6464;
+    	width:1200px; 
+    	height:100px;
+    	line-height:100px;
+    }
+    .admin_titleB {
+		margin-left:50px;
+        float:left;
+        color:#FFF;
+    }
+    #wrap {
+  		position: relative;
+  	}
+    #admin_left{	
+        background:#DDD;
+  		position: absolute;
+  		width: 150px;
+        line-height:40px;
+  		min-height: 100%;
+  		font-weight: bold;
+    }
+    #admin_left>ul{
+    	padding-top:20px;
+    }        
+    #admin_left>ul>li{
+    	padding-left:20px; 
+    }
+    #admin_left>ul>li>a{
+    	color:#808080;
+    }
+    #admin_left>ul>li>a:hover{
+    	color:black;
+    }
+    #admin_section{
+    	background:#FFF;
+  		padding-left: 150px;
+  		padding-bottom: 100px;
+  		width: 1050px;
+    }
+    
+	/* admin innerform */
+	#adminF{
+		padding:20px;
+		width:1010px;
+		line-height: 35px;
+		text-align: center;
+		margin-bottom:500px;
+	}
+	#adminF a{
+		color:#6e6464;
+	}
+	#adminF a:hover{
+		color:#ff6600;
+	}
+	#adminF2{
+		text-align: left;
+		padding-bottom:30px;
+	}
+	#adminF3{
+		text-align: left;
+		margin-left:10px;
+		padding-bottom:25px;
+	}
+	#admin_title2{
+		font-weight: bold;
+		color:#6e6464;
+		font-size:2em;
+		padding-bottom:20px;
+		margin-bottom:20px;
+		border-bottom: 1px solid #CCC;
+	}
+	#admin_contents{
+		width:940px;
+		margin:0 auto;
+		background:#DDD;
+		font-size:1em;
+		line-height:25px;
+		padding:20px;
+		border-top: 1px solid #6e6464;
+		border-bottom: 1px solid #6e6464;
+	}
+	#admin_page{
+		width:950px;
+		margin:0 auto;
+		font-size:1.2em;
+		text-align: center;
+		padding-top:10px;
+	}
+	#admin_comment{
+		padding:20px;
+		width:950px;
+		margin:0 auto;
+		color:#6e6464;
+		font-size:0.8em;
+		font-weight: bold;
+	}
+	.admin_commentF {
+		width:950px;
+		border-bottom: 1px dotted #AAA;
+	}
+	.comment1{
+		width: 100px;
+	}
+	.comment2{
+		width: 610px;
+		color: #AAA;
+	}
+	.comment3{
+		vertical-align: middle;
+	}
+	.comment4{
+		width:710px;
+		padding-left: 100px;
+	}
+	#admin_page a{
+		color:#AAA;
+	}
+	#admin_bottom{
+		padding-top: 20px;
+		text-align: center;
+	}
+	#admin_total{
+		font-weight:bold;
+		font-size:0.9em;
+		margin-left:10px;
+		color:#AAA;
+		padding:5px;
+	}
+	.adminB{
+		width:80px;
+		font-size:1.2em;
+		font-weight:bold;
+		color:#6e6464;
+		text-align:right;
+		padding-right:10px;
+	}
+	.adminS{
+		padding:5px;
+		margin-right:10px;
+		margin:5px;
+	}
+	.adminS2{
+		padding:5px;
+		margin-right:10px;
+	}
+	#admin_tableF{
+		width:980px;
+		margin:0 auto;
+		padding-top: 20px;
+		text-align: center;
+		border-bottom: 1px solid #6e6464;
+	}
+	#admin_tableF a{
+		color:#6e6464;
+	}
+	#admin_tableF2{
+		font-size:0.8em;
+		color:#AAA;
+	}
+	.admin_tableB{
+		color:#FFF;
+		font-weight:bold;
+		background: #6e6464;
+		letter-spacing:2px;
+	}
+	.admin_select{
+		color:#937750;
+	}
+	.bt{
+		padding:5px;
+		margin:3px;
+	}
+	.bt2{
+		width:150px;
+		padding:5px;
+		margin:3px;
+	}
+	.ta{
+		width:100px;
+		padding:5px;
+		margin:3px;
+	}
+	.ta2{
+	width:200px;
+	padding:5px;
+	margin:3px;
+	}
+	.ta3{
+	width:700px;
+	height:50px;
+	padding:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+	/* 달력색상 */
+	.cal{
+		background: #6e6464;
+		color:#FFF;
+	}/*체크인 */
+	.cal1{
+		background: #1a6668;
+	}/*체크인 나머지*/
+	.cal2{
+		background: #75d3d5;
+	}/*월~금요일*/
+	.cal3{
+		background: #ebe5e5;
+		border-bottom: 1px solid black;
+	}/*토요일*/
+	.cal4{
+		background: #bad1e6;
+		border-bottom: 1px solid black;
+	}/*일요일*/
+	.cal5{
+		background: #e5bcc0;
+		border-bottom: 1px solid black;
+	}/*오늘날짜*/
+	.cal6{
+		background: orange;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}/*나머지날짜*/
+	.cal7{
+		background: #FFF;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}/*나머지빈칸*/
+	.cal8{
+		background: #FFF;
+		border-bottom: 1px solid #DDD;
+	}/*테이블테두리*/
+	.cal9{
+		height:10px;
+		background: #6e6464;
+	}
+	.roomtd{
+		width:130px;
+		background: #ebe5e5;
+		border-bottom: 1px solid black;
+	}
+	.roomtd2{
+		width:80px;
+		background: #ebe5e5;
+		border-bottom: 1px solid black;
+	}
+	#admin_tableFMove{
+		position:fixed;
+		top:342px; left:150px; right:0;
+		width:980px;
+		margin:0 auto;
+		padding-top: 20px;
+		text-align: center;
+		border-bottom: 1px solid #6e6464;
+	}
+	#admin_tableFMove2{
+		width:980px;
+		margin:0 auto;
+		height:100px;
+		padding-top: 20px;
+		text-overflow:ellipsis; overflow-y:hidden;
+		text-align: center;
+		border-bottom: 1px solid #6e6464;
+	}
+	.roomtd_move{
+		width:130px;
+		background: #ebe5e5;
+		border-bottom: 1px solid #CCC;
+	}
+	.roomtd2_move{
+		width:80px;
+		background: #ebe5e5;
+		border-bottom: 1px solid #CCC;
+	}

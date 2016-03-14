@@ -1,0 +1,102 @@
+
+
+.navig{
+	display: none;
+}
+#smallmenu {
+	display : inline-block;
+}
+.longbanner {
+	display: block;
+}
+
+.banner-top {
+	position: static;
+	left: 0;
+	width: 100%;
+	margin-left:0;
+}
+
+.fotorama .banner-text {
+	font-size: 50px;
+}
+.fotorama .banner-text2 {
+	font-size: 20px;
+}
+
+.longbanner .input-append {
+	display: block;
+	margin-left: 0;
+	margin-bottom: 15px;
+}
+.longbanner .input-append input {
+	width: 96%;
+	margin-left: 0;
+}
+
+.longbanner .btn-group > .btn:first-child {
+	margin-bottom: 15px;
+}
+
+.longbanner .bnr-btn input[type=submit]{
+	width : auto;
+    margin-right: 35px;
+}
+
+.bannersize {
+	font-size: 50px !important;
+	transition : all 0.7s;
+}
+
+.roomselect {
+	height: 90vh;
+	
+}
+
+@media (min-width: 1200px) {
+	.roomselect {
+	height: 70vh;
+	}
+	
+	.navig{
+		display: inline-block;
+	}
+	
+	.bannersize {
+	font-size: 70px !important;
+	transition : all 0.7s;
+	}
+	
+	#smallmenu {
+	display : none;
+	}
+	.longbanner {
+		display: block;
+	}
+	.fotorama .banner-text {
+		font-size: 80px;
+	}
+	.fotorama .banner-text2 {
+		font-size: 30px;
+	}
+	.banner-top {
+	position: absolute;
+	left: 50%;
+	width: 86vmax;
+	margin-left:-43vmax;
+	}
+	.longbanner .input-append {
+		display: inline-block;
+	}
+	.longbanner .input-append input {
+	width: 10vmax;
+	}
+	.longbanner .btn-group > .btn:first-child {
+	margin-bottom: 0px;
+	}	
+	.longbanner .bnr-btn input[type=submit]{
+	width : auto;
+    margin-right: 20px;
+	}
+}
+ 
